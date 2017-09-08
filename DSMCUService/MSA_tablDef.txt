@@ -1,0 +1,926 @@
+MSA Table Description File
+
+[version]
+1.0 
+
+[info]
+1: column count
+6
+2: fixed columns
+1
+3: column headers, column width;
+NN
+60
+Name
+100
+Value
+40
+bit[7-0]
+65
+ASCII
+40
+Description 
+500
+4: rows count
+128
+5...x(4): rows values (col1, col2, col3, col4)
+
+[data]
+00h/000
+Identifier
+22
+*
+*
+Type of transceiver (see Table 3.2)
+
+01h/001
+Ext. Identifier
+00
+*
+*
+Extended identifier of type of transceiver (see Table 3.3)
+
+02h/002
+Connector
+00
+*
+*
+Code for connector type (see Table 3.4)
+
+03h/003
+Transceiver
+00
+*
+*
+Byte00 Code for electronic or optical compatibility (see Table 3.5)
+
+04h/004
+Transceiver
+00
+*
+*
+Byte01 Code for electronic or optical compatibility (see Table 3.5)
+
+05h/005
+Transceiver
+00
+*
+*
+Byte02 Code for electronic or optical compatibility (see Table 3.5)
+
+06h/006
+Transceiver
+00
+*
+*
+Byte03 Code for electronic or optical compatibility (see Table 3.5)
+
+07h/007
+Transceiver
+00
+*
+*
+Byte04 Code for electronic or optical compatibility (see Table 3.5)
+
+08h/008
+Transceiver
+00
+*
+*
+Byte05 Code for electronic or optical compatibility (see Table 3.5)
+
+09h/009
+Transceiver
+00
+*
+*
+Byte06 Code for electronic or optical compatibility (see Table 3.5)
+
+0Ah/010
+Transceiver
+00
+*
+*
+Byte07 Code for electronic or optical compatibility (see Table 3.5)
+
+0x0B/011
+Encoding
+00
+*
+*
+Code for high speed serial encoding algorithm (see Table 3.6)
+
+0x0C/012
+BR, Nominal
+00
+*
+*
+Nominal signalling rate, units of 100MBd.
+
+0x0D/013
+Rate Identifier
+00
+*
+*
+Type of rate select functionality (see Table 3.6a)
+
+0x0E/014
+Length(SMF,km)
+00
+*
+*
+Link length supported for single mode fiber, units of km
+
+0x0F/015
+Length (SMF)
+00
+*
+*
+Link length supported for single mode fiber, units of 100 m
+
+0x10/016
+Length (50um)
+00
+*
+*
+Link length supported for 50 um OM2 fiber, units of 10 m
+
+0x11/017
+Length (62.5um)
+00
+*
+*
+Link length supported for 62.5 um OM1 fiber, units of 10 m
+
+0x12/018
+Length (cable)
+00
+*
+*
+Link length supported for copper or direct attach cable, units of m
+
+0x13/019
+Length (OM3)
+00
+*
+*
+Link length supported for 50 um OM3 fiber, units of 10 m
+
+0x14/020
+Vendor name
+00
+*
+*
+Byte00 SFP vendor name (ASCII)
+
+0x15/021
+Vendor name
+00
+*
+*
+Byte01 SFP vendor name (ASCII)
+
+0x16/022
+Vendor name
+00
+*
+*
+Byte02 SFP vendor name (ASCII)
+
+0x17/023
+Vendor name
+00
+*
+*
+Byte03 SFP vendor name (ASCII)
+
+0x18/024
+Vendor name
+00
+*
+*
+Byte04 SFP vendor name (ASCII)
+
+0x19/025
+Vendor name
+00
+*
+*
+Byte05 SFP vendor name (ASCII)
+
+0x1A/026
+Vendor name
+00
+*
+*
+Byte06 SFP vendor name (ASCII)
+
+0x1B/027
+Vendor name
+00
+*
+*
+Byte07 SFP vendor name (ASCII)
+
+0x1C/028
+Vendor name
+00
+*
+*
+Byte08 SFP vendor name (ASCII)
+
+0x1D/029
+Vendor name
+00
+*
+*
+Byte09 SFP vendor name (ASCII)
+
+0x1E/030
+Vendor name
+00
+*
+*
+Byte10 SFP vendor name (ASCII)
+
+0x1F/031
+Vendor name
+00
+*
+*
+Byte11 SFP vendor name (ASCII)
+
+0x20/032
+Vendor name
+00
+*
+*
+Byte12 SFP vendor name (ASCII)
+
+0x21/033
+Vendor name
+00
+*
+*
+Byte13 SFP vendor name (ASCII)
+
+0x22/034
+Vendor name
+00
+*
+*
+Byte14 SFP vendor name (ASCII)
+
+0x23/035
+Vendor name
+00
+*
+*
+Byte15 SFP vendor name (ASCII)
+
+0x24/036
+Transceiver
+00
+*
+*
+Code for electronic or optical compatibility (see Table 3.5)
+
+0x25/037
+Vendor OUI
+00
+*
+*
+Byte00 SFP vendor IEEE company ID
+
+0x26/038
+Vendor OUI
+00
+*
+*
+Byte01 SFP vendor IEEE company ID
+
+0x27/039
+Vendor OUI
+00
+*
+*
+Byte02 SFP vendor IEEE company ID
+
+0x28/040
+Vendor PN
+00
+*
+*
+Byte00 Part number provided by SFP vendor (ASCII)
+
+0x29/041
+Vendor PN
+00
+*
+*
+Byte01 Part number provided by SFP vendor (ASCII)
+
+0x2A/042
+Vendor PN
+00
+*
+*
+Byte02 Part number provided by SFP vendor (ASCII)
+
+0x2B/043
+Vendor PN
+00
+*
+*
+Byte03 Part number provided by SFP vendor (ASCII)
+
+0x2C/044
+Vendor PN
+00
+*
+*
+Byte04 Part number provided by SFP vendor (ASCII)
+
+0x2D/045
+Vendor PN
+00
+*
+*
+Byte05 Part number provided by SFP vendor (ASCII)
+
+0x2E/046
+Vendor PN
+00
+*
+*
+Byte06 Part number provided by SFP vendor (ASCII)
+
+0x2F/047
+Vendor PN
+00
+*
+*
+Byte07 Part number provided by SFP vendor (ASCII)
+
+0x30/048
+Vendor PN
+00
+*
+*
+Byte08 Part number provided by SFP vendor (ASCII)
+
+0x31/049
+Vendor PN
+00
+*
+*
+Byte09 Part number provided by SFP vendor (ASCII)
+
+0x32/050
+Vendor PN
+00
+*
+*
+Byte10 Part number provided by SFP vendor (ASCII)
+
+0x33/051
+Vendor PN
+00
+*
+*
+Byte11 Part number provided by SFP vendor (ASCII)
+
+0x34/052
+Vendor PN
+00
+*
+*
+Byte12 Part number provided by SFP vendor (ASCII)
+
+0x35/053
+Vendor PN
+00
+*
+*
+Byte13 Part number provided by SFP vendor (ASCII)
+
+0x36/054
+Vendor PN
+00
+*
+*
+Byte14 Part number provided by SFP vendor (ASCII)
+
+0x37/055
+Vendor PN
+00
+*
+*
+Byte15 Part number provided by SFP vendor (ASCII)
+
+0x38/056
+Vendor rev
+00
+*
+*
+Byte00 Revision level for part number provided by vendor (ASCII)
+
+0x39/057
+Vendor rev
+00
+*
+*
+Byte01 Revision level for part number provided by vendor (ASCII)
+
+0x3A/058
+Vendor rev
+00
+*
+*
+Byte02 Revision level for part number provided by vendor (ASCII)
+
+0x3B/059
+Vendor rev
+00
+*
+*
+Byte03 Revision level for part number provided by vendor (ASCII)
+
+0x3C/060
+Wavelength
+00
+*
+*
+Byte00 Laser wavelength (Passive/Active Cable Specification Compliance)
+
+0x3D/061
+Wavelength
+00
+*
+*
+Byte01 Laser wavelength (Passive/Active Cable Specification Compliance)
+
+0x3E/062
+Unallocated
+00
+*
+*
+Unallocated
+
+0x3F/063
+CC_BASE
+00
+*
+*
+Check code for Base ID Fields (addresses 0 to 62)
+
+0x40/064
+Options
+00
+*
+*
+Byte00 Indicates which optional transceiver signals are implemented (see Table 3.7)
+
+0x41/065
+Options
+00
+*
+*
+Byte01 Indicates which optional transceiver signals are implemented (see Table 3.7)
+
+0x42/066
+BR, max
+00
+*
+*
+Upper bit rate margin, units of %
+
+0x43/067
+BR, min
+00
+*
+*
+Lower bit rate margin, units of %
+
+0x44/068
+Vendor SN
+00
+*
+*
+Byte00 Serial number provided by vendor (ASCII)
+
+0x45/069
+Vendor SN
+00
+*
+*
+Byte01 Serial number provided by vendor (ASCII)
+
+0x46/070
+Vendor SN
+00
+*
+*
+Byte02 Serial number provided by vendor (ASCII)
+
+0x47/071
+Vendor SN
+00
+*
+*
+Byte03 Serial number provided by vendor (ASCII)
+
+0x48/072
+Vendor SN
+00
+*
+*
+Byte04 Serial number provided by vendor (ASCII)
+
+0x49/073
+Vendor SN
+00
+*
+*
+Byte05 Serial number provided by vendor (ASCII)
+
+0x4A/074
+Vendor SN
+00
+*
+*
+Byte06 Serial number provided by vendor (ASCII)
+
+0x4B/075
+Vendor SN
+00
+*
+*
+Byte07 Serial number provided by vendor (ASCII)
+
+0x4C/076
+Vendor SN
+00
+*
+*
+Byte08 Serial number provided by vendor (ASCII)
+
+0x4D/077
+Vendor SN
+00
+*
+*
+Byte09 Serial number provided by vendor (ASCII)
+
+0x4E/078
+Vendor SN
+00
+*
+*
+Byte10 Serial number provided by vendor (ASCII)
+
+0x4F/079
+Vendor SN
+00
+*
+*
+Byte11 Serial number provided by vendor (ASCII)
+
+0x50/080
+Vendor SN
+00
+*
+*
+Byte12 Serial number provided by vendor (ASCII)
+
+0x51/081
+Vendor SN
+00
+*
+*
+Byte13 Serial number provided by vendor (ASCII)
+
+0x52/082
+Vendor SN
+00
+*
+*
+Byte14 Serial number provided by vendor (ASCII)
+
+0x53/083
+Vendor SN
+00
+*
+*
+Byte15 Serial number provided by vendor (ASCII)
+
+0x54/084
+Date code
+00
+*
+*
+Byte00 Serial number provided by vendor (ASCII)
+
+0x55/085
+Date code
+00
+*
+*
+Byte01 Serial number provided by vendor (ASCII)
+
+0x56/086
+Date code
+00
+*
+*
+Byte02 Serial number provided by vendor (ASCII)
+
+0x57/087
+Date code
+00
+*
+*
+Byte03 Serial number provided by vendor (ASCII)
+
+0x58/088
+Date code
+00
+*
+*
+Byte04 Serial number provided by vendor (ASCII)
+
+0x59/089
+Date code
+00
+*
+*
+Byte05 Serial number provided by vendor (ASCII)
+
+0x5A/090
+Date code
+00
+*
+*
+Byte06 Serial number provided by vendor (ASCII)
+
+0x5B/091
+Date code
+00
+*
+*
+Byte07 Serial number provided by vendor (ASCII)
+
+0x5C/092
+Diag Monitor Type
+00
+*
+*
+Indicates which type of diagnostic monitoring is implemented (if any) in the transceiver (see Table 3.9)
+
+0x5D/093
+Enhanced Options
+00
+*
+*
+Indicates which optional enhanced features are implemented (if any) in the transceiver (see Table 3.10)
+
+0x5E/094
+FF-8472 Compliance
+00
+*
+*
+Indicates which revision of SFF-8472 the transceiver complies with. (see Table 3.12)
+
+0x5F/095
+CC_EXT
+00
+*
+*
+Check code for the Extended ID Fields (addresses 64 to 94)
+
+0x60/096
+Vendor Specific
+00
+*
+*
+Byte00 Vendor Specific EEPROM
+
+0x61/097
+Vendor Specific
+00
+*
+*
+Byte01 Vendor Specific EEPROM
+
+0x62/098
+Vendor Specific
+00
+*
+*
+Byte02 Vendor Specific EEPROM
+
+0x63/099
+Vendor Specific
+00
+*
+*
+Byte03 Vendor Specific EEPROM
+
+0x64/100
+Vendor Specific
+00
+*
+*
+Byte04 Vendor Specific EEPROM
+
+0x65/101
+Vendor Specific
+00
+*
+*
+Byte05 Vendor Specific EEPROM
+
+0x66/102
+Vendor Specific
+00
+*
+*
+Byte06 Vendor Specific EEPROM
+
+0x67/103
+Vendor Specific
+00
+*
+*
+Byte07 Vendor Specific EEPROM
+
+0x68/104
+Vendor Specific
+00
+*
+*
+Byte08 Vendor Specific EEPROM
+
+0x69/105
+Vendor Specific
+00
+*
+*
+Byte09 Vendor Specific EEPROM
+
+0x6A/106
+Vendor Specific
+00
+*
+*
+Byte10 Vendor Specific EEPROM
+
+0x6B/107
+Vendor Specific
+00
+*
+*
+Byte11 Vendor Specific EEPROM
+
+0x6C/108
+Vendor Specific
+00
+*
+*
+Byte12 Vendor Specific EEPROM
+
+0x6D/109
+Vendor Specific
+00
+*
+*
+Byte13 Vendor Specific EEPROM
+
+0x6E/110
+Vendor Specific
+00
+*
+*
+Byte14 Vendor Specific EEPROM
+
+0x6F/111
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x70/112
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x71/113
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x72/114
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x73/115
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x74/116
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x75/117
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x76/118
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x77/119
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x78/120
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x79/121
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x7A/122
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x7B/123
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x7C/124
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x7D/125
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x7E/126
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+0x7F/127
+Vendor Specific
+00
+*
+*
+Byte15 Vendor Specific EEPROM
+
+
+// end of file

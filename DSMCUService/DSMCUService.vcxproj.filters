@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GridCtrl">
+      <UniqueIdentifier>{bd1ef344-3ce7-441c-ae68-359d85c74823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GridCtrl">
+      <UniqueIdentifier>{bbf2730c-430c-4f84-a2d5-0d1b7d389318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DS4830A_tabs">
+      <UniqueIdentifier>{d148988b-4ca8-4fba-9c7f-4ee6ffd2d763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DS4830A_tabs">
+      <UniqueIdentifier>{437d737c-a54c-4cf0-8333-f31362fd61fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GridTable">
+      <UniqueIdentifier>{af90f2d7-e7e3-452d-87c1-8552359d12e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GridTable">
+      <UniqueIdentifier>{18b0562d-0751-4086-9af4-2aa7aee6b80e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DSMCUService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DSMCUServiceDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DS4830A_srvDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgTabCtrl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GridRes\CellRange.h">
+      <Filter>Header Files\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridRes\GridCell.h">
+      <Filter>Header Files\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridRes\GridCellBase.h">
+      <Filter>Header Files\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridRes\GridCtrl.h">
+      <Filter>Header Files\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridRes\GridDropTarget.h">
+      <Filter>Header Files\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="DS4830A_SFF_Custom.h">
+      <Filter>Header Files\DS4830A_tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="DS4830A_SFPP_A0.h">
+      <Filter>Header Files\DS4830A_tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="DS4830A_SFPP_A2.h">
+      <Filter>Header Files\DS4830A_tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="GridRes\MemDC.h">
+      <Filter>Header Files\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="GridRes\InPlaceEdit.h">
+      <Filter>Header Files\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="DSBootLoader.h">
+      <Filter>Header Files\DS4830A_tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="GridRes\TitleTip.h">
+      <Filter>Header Files\GridCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="DS4830A_SFPP_LR_CONF_OPER.h">
+      <Filter>Header Files\DS4830A_tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="DS4830A_SFPP_LR_CONF_ENGI.h">
+      <Filter>Header Files\DS4830A_tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="DS4830A_SFPP_DDM.h">
+      <Filter>Header Files\DS4830A_tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="DS4830A_SFPP_MSA.h">
+      <Filter>Header Files\DS4830A_tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="GridSFF.h">
+      <Filter>Header Files\GridTable</Filter>
+    </ClInclude>
+    <ClInclude Include="GridSFF_CP2112.h">
+      <Filter>Header Files\GridTable</Filter>
+    </ClInclude>
+    <ClInclude Include="GridTable.h">
+      <Filter>Header Files\GridTable</Filter>
+    </ClInclude>
+    <ClInclude Include="GridTable_DDM.h">
+      <Filter>Header Files\GridTable</Filter>
+    </ClInclude>
+    <ClInclude Include="GridTable_MSA.h">
+      <Filter>Header Files\GridTable</Filter>
+    </ClInclude>
+    <ClInclude Include="LibHashFunct.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DS4830A_SFPP_ER_ENGI.h">
+      <Filter>Header Files\DS4830A_tabs</Filter>
+    </ClInclude>
+    <ClInclude Include="DS4830A_SFPP_ER_TEC_APC.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TB_SFP_R2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="COMPort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceCommunInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DSMCUService.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DSMCUServiceDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DS4830A_srvDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgTabCtrl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GridRes\GridCtrl.cpp">
+      <Filter>Source Files\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridRes\GridCellBase.cpp">
+      <Filter>Source Files\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridRes\GridCell.cpp">
+      <Filter>Source Files\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridRes\GridDropTarget.cpp">
+      <Filter>Source Files\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="DSBootLoader.cpp">
+      <Filter>Source Files\DS4830A_tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="DS4830A_SFPP_A2.cpp">
+      <Filter>Source Files\DS4830A_tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="DS4830A_SFPP_A0.cpp">
+      <Filter>Source Files\DS4830A_tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="DS4830A_SFF_Custom.cpp">
+      <Filter>Source Files\DS4830A_tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="GridRes\InPlaceEdit.cpp">
+      <Filter>Source Files\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="GridRes\TitleTip.cpp">
+      <Filter>Source Files\GridCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="DS4830A_SFPP_LR_CONF_OPER.cpp">
+      <Filter>Source Files\DS4830A_tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="DS4830A_SFPP_LR_CONF_ENGI.cpp">
+      <Filter>Source Files\DS4830A_tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="DS4830A_SFPP_DDM.cpp">
+      <Filter>Source Files\DS4830A_tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="DS4830A_SFPP_MSA.cpp">
+      <Filter>Source Files\DS4830A_tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="GridSFF.cpp">
+      <Filter>Source Files\GridTable</Filter>
+    </ClCompile>
+    <ClCompile Include="GridSFF_CP2112.cpp">
+      <Filter>Source Files\GridTable</Filter>
+    </ClCompile>
+    <ClCompile Include="GridTable.cpp">
+      <Filter>Source Files\GridTable</Filter>
+    </ClCompile>
+    <ClCompile Include="GridTable_DDM.cpp">
+      <Filter>Source Files\GridTable</Filter>
+    </ClCompile>
+    <ClCompile Include="GridTable_MSA.cpp">
+      <Filter>Source Files\GridTable</Filter>
+    </ClCompile>
+    <ClCompile Include="LibHashFunct.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DS4830A_SFPP_ER_ENGI.cpp">
+      <Filter>Source Files\DS4830A_tabs</Filter>
+    </ClCompile>
+    <ClCompile Include="DS4830A_SFPP_ER_TEC_APC.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TB_SFP_R2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="COMPort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceCommunInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DSMCUService.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DSMCUService.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\DSMCUService.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="logo_FT.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
